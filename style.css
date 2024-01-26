@@ -32,6 +32,11 @@ font-size: xx-large;
 margin:100px;
 }
 
+@media screen and (max-width: 600px) {
+    p {
+        margin: 20px; /* Adjust the margin for smaller screens */
+    }
+}
 
 body {
     background-color: #000000;
